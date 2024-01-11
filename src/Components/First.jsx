@@ -1,6 +1,5 @@
 import React from "react"
 
-
 export default function First() {
     return (
         <div className="bg-[url('https://i.imgur.com/q7hWY1y.jpeg')] h-1/2 w-auto bg-cover">
