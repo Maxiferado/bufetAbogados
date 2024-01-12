@@ -12,10 +12,10 @@ export default function First() {
                         </p>
                     </div>
                 </div>
-                <div className=" h-1/3 w-auto flex flex-col gap-10 justify-end">
-                    <button className="p-2 h 1/3 bg-[#cdad7dff] text-black hover:text-white ">Sobre Nosotros</button>
-                    <button className="p-2 h 1/3 bg-[#cdad7dff] text-black hover:text-white ">Nuestros Servicios</button>
-                    <button className="p-2 h 1/3 bg-[#cdad7dff] text-black hover:text-white ">Contactenos</button>
+                <div className="h-1/3 w-auto flex flex-col gap-10 justify-end">
+                    <button className="p-2 bg-[#cdad7dff] font-semibold text-black hover:text-white ">Sobre Nosotros</button>
+                    <button className="p-2 bg-[#cdad7dff] font-semibold text-black hover:text-white ">Nuestros Servicios</button>
+                    <button className="p-2 bg-[#cdad7dff] font-semibold text-black hover:text-white ">Contactenos</button>
                 </div>
             </div>
         </div>
