@@ -4,8 +4,9 @@ import { mdiWhatsapp } from '@mdi/js';
 import { mdiScaleBalance } from '@mdi/js';
 import { mdiInstagram } from '@mdi/js';
 import { mdiGmail } from '@mdi/js';
+import Logosvg from './Logosvg';
 
-export default function Header() {
+export default function Header(props : any) {
   return (
     <nav className='h-1/5 w-screen bg-white flex justify-between'>
       <a href="https://riosduranlegalconsulting.com/" target="__blank">
@@ -14,8 +15,9 @@ export default function Header() {
             title="User Profile"
             size={1}
             color="#cdad7dff"
-          />
-          <p className='text-black font-bold '>Ríosdurán</p>
+          />  
+          <Logosvg/>        
+          <p className='text-black font-bold '>{props.navmain}</p>
         </div>
       </a>
       <div className='flex flex-row gap-5 pr-5'>
