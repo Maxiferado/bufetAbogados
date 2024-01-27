@@ -16,7 +16,7 @@ function App() {
       <First
         subtext="Legal & Consulting"
         firstbox="Ríos"
-        secondbox="Duran"
+        secondbox="Durán"
         thirdbox="S.A.S"
         button1="Sobre nosotros"
         button2="Nuestros servicios"
@@ -67,7 +67,13 @@ function App() {
         li7="Capacitación de consejos de administración y comités de conviviencia (Incluye políticias, manuales y actas para su funcionamiento)"
       ></Companyservices>
       <Calltoaction h1="Contactenos e inicia una experiencia diferente en asesorias legales y garantiza el crecimiento de tu empresa."></Calltoaction>
-      <Footer></Footer>
+      <Footer
+        whatPhone="+5731855575418"
+        email="Send Email"
+        instagram="@riosduran"
+        h2="RÍOS DURÁN"
+        h3="Legal & Consulting"
+      ></Footer>
     </div>
   );
 }
