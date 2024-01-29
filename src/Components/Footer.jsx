@@ -6,7 +6,10 @@ import { mdiScaleBalance } from "@mdi/js";
 
 export default function Footer({ whatPhone, email, instagram, h2, h3 }) {
   return (
-    <div className="bg-black h-auto w-auto flex flex-col items-center pb-5" id="ContactUs">
+    <div
+      className="bg-black h-auto w-auto flex flex-col items-center pb-5"
+      id="ContactUs"
+    >
       <div>
         <div className="mb-10">
           <ul className="flex flex-col gap-5 items-start">
