@@ -20,7 +20,7 @@ export default function Header({ navmain }) {
       </a>
       <div className='flex flex-row gap-5 pr-5'>
 
-        <a href="contacto@riosduranlegalconsulting.com" target="__blank">
+        <a href="mailto:contacto@riosduranlegalconsulting.com" target="__blank">
           <Icon className='cursor-pointer' path={mdiGmail}
             title="Gmail Contact"
             size={1}

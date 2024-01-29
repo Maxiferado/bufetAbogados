@@ -8,6 +8,7 @@ import Aplicacion from "./Components/Aplication";
 import Companyservices from "./Components/Companyservices";
 import Calltoaction from "./Components/Calltoaction";
 import Footer from "./Components/Footer";
+import HorizontalProperty from "./Components/HorizontalProperty";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         button3="Propiedad horizontal"
       ></Ourservices>
       <Aplicacion
+        h4="Áreas de aplicación"
         li1="Derecho Labroral"
         li2="Derecho civil"
         li3="Derecho administrativo"
@@ -56,17 +58,17 @@ function App() {
         li8="Estudio de procesos teneiendo en cuenta criterios técnicos, tecnológicos y científicos"
         li9="Seguimientos a sistemas de gestión"
       ></Companyservices>
-      <Companyservices
-        h4="Nuestros servicios en propiedad horizontal."
-        li="Constitución de régimen de propiedad horizontal."
-        li2="Elaboración o actualización de manuales de convivencia."
+      <HorizontalProperty
+        h4="Nuestros servicios en propiedad horizontal"
+        li="Constitución de régimen de propiedad horizontal"
+        li2="Elaboración o actualización de manuales de convivencia"
         li3="Elaboración, asesoría de contratos y acompañamiento legal en conciliaciones extrajudiciales"
         li4="Asesoría y acompañamiento legal en asambleas ordinarias, extraordinarias y reuniones de consejo de administración"
-        li5="Auditoría forense en procesos legales, administrativos y contables."
+        li5="Auditoría forense en procesos legales, administrativos y contables"
         li6="Asesoría para elaboración de informes, presupuesto y proyectos dentro de la PH"
         li7="Capacitación de consejos de administración y comités de conviviencia (Incluye políticias, manuales y actas para su funcionamiento)"
-      ></Companyservices>
-      <Calltoaction h1="Contactenos e inicia una experiencia diferente en asesorias legales y garantiza el crecimiento de tu empresa."></Calltoaction>
+      ></HorizontalProperty>
+      <Calltoaction h1="Contactenos e inicia una experiencia diferente en asesorias legales y garantiza el crecimiento de tu empresa"></Calltoaction>
       <Footer
         whatPhone="+5731855575418"
         email="Send Email"

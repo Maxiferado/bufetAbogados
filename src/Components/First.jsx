@@ -23,14 +23,16 @@ export default function First({
           </div>
         </div>
         <div className="h-1/3 w-auto flex flex-col gap-10 justify-end">
+        
           <button className="p-2 bg-[#cdad7dff] font-semibold text-black hover:text-white ">
-            {button1}
+          <a href="/#AboutUs">{button1}</a>
+          </button>
+         
+          <button className="p-2 bg-[#cdad7dff] font-semibold text-black hover:text-white ">
+            <a href="/#OurServices">{button2}</a>
           </button>
           <button className="p-2 bg-[#cdad7dff] font-semibold text-black hover:text-white ">
-            {button2}
-          </button>
-          <button className="p-2 bg-[#cdad7dff] font-semibold text-black hover:text-white ">
-            {button3}
+            <a href="/#ContactUs">{button3}</a>
           </button>
         </div>
       </div>
