@@ -10,7 +10,7 @@ export default function Header({ navmain }) {
     <nav className="h-1/5 w-screen bg-white flex justify-between">
       <a href="https://riosduranlegalconsulting.com/" target="__blank">
         <div className="flex flex-row gap-2 pl-5 cursor-pointer">
-          <img className="h-8" src={LogoMain} alt="Rios Duran Logo" />
+          <img className="h-8 py-1" src={LogoMain} alt="Rios Duran Logo" />
           <p className="text-black font-bold pt-1">{navmain}</p>
         </div>
       </a>
