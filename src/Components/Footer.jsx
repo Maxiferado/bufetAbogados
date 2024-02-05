@@ -2,7 +2,7 @@ import Icon from "@mdi/react";
 import { mdiPhone } from "@mdi/js";
 import { mdiEmailOutline } from "@mdi/js";
 import { mdiInstagram } from "@mdi/js";
-import { mdiScaleBalance } from "@mdi/js";
+import LogoMain from "../Assets/LogoMain.png";
 
 export default function Footer({ whatPhone, email, instagram, h2, h3 }) {
   return (
@@ -63,15 +63,8 @@ export default function Footer({ whatPhone, email, instagram, h2, h3 }) {
             </li>
           </ul>
         </div>
-        <div className="flex">
-          <div className="flex items-center">
-            <Icon
-              path={mdiScaleBalance}
-              title="User Profile"
-              size={2}
-              color="#cdad7dff"
-            />
-          </div>
+        <div className="flex items-center">
+          <img className="h-20 pr-5" src={LogoMain} alt="Logo Rios Duran" />
           <div className="flex flex-col items-start">
             <h2 className="text-[#cdad7dff] font-bold">{h2}</h2>
             <h3 className="text-[#cdad7dff] font-semibold">{h3}</h3>
