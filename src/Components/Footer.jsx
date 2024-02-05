@@ -22,7 +22,7 @@ export default function Footer({ whatPhone, email, instagram, h2, h3 }) {
                 className="bg-white rounded-full p-0.5"
               />
               <a
-                href="https://wa.me/+573185575418"
+                href="https://wa.me/+573183183732"
                 className="text-white underline decoration-1 decoration-white"
                 target="__blank"
               >

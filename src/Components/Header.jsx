@@ -36,7 +36,7 @@ export default function Header({ navmain }) {
             color="black"
           />
         </a>
-        <a href="https://wa.me/+573185575418" target="__blank">
+        <a href="https://wa.me/+573183183732" target="__blank">
           <Icon
             className="cursor-pointer"
             path={mdiWhatsapp}

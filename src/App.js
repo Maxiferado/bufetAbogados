@@ -70,7 +70,7 @@ function App() {
       ></HorizontalProperty>
       <Calltoaction h1="Contactenos e inicia una experiencia diferente en asesorias legales y garantiza el crecimiento de tu empresa"></Calltoaction>
       <Footer
-        whatPhone="+5731855575418"
+        whatPhone="+573183183732"
         email="Send Email"
         instagram="@riosduran"
         h2="RÍOS DURÁN"
