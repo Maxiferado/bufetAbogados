@@ -1,5 +1,5 @@
 import React from "react";
-
+import backImage from "../Assets/tenemosalgo.jpg"
 export default function First({
   subtext,
   firstbox,
@@ -10,7 +10,7 @@ export default function First({
   button3,
 }) {
   return (
-    <div className="bg-[url('https://i.imgur.com/q7hWY1y.jpeg')] h-1/2 w-auto bg-cover">
+    <div style={{'--image-url': `url(${backImage})`}}  className="bg-[image:var(--image-url)] h-1/2 w-auto bg-cover">
       <div className="flex h-screen w-screen justify-around items-center">
         <div className="p-px bg-none border-4 border-[#cdad7dff] border-l-0 h-1/3 w-1/3 relative md:w-1/4 lg:w-1/5 xl:w-1/6">
           <p className="absolute text-white -bottom-12 text-sm text-center md:text-lg">

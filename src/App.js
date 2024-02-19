@@ -41,7 +41,7 @@ function App() {
       ></Ourservices>
       <Aplicacion
         h4="Áreas de aplicación."
-        li1="Derecho labroral."
+        li1="Derecho laboral."
         li2="Derecho civil."
         li3="Derecho administrativo."
         li4="Derecho familia."
