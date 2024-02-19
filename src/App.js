@@ -9,11 +9,20 @@ import Companyservices from "./Components/Companyservices";
 import Calltoaction from "./Components/Calltoaction";
 import Footer from "./Components/Footer";
 import HorizontalProperty from "./Components/HorizontalProperty";
+import { Helmet } from "react-helmet";
+
+
 
 function App() {
   return (
     <div className="App">
-      <Header navmain="Ríosdurán"></Header>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>RíosDurán</title>
+        <link rel="canonical" href="https://riosduranlegalconsulting.com/" />
+        <meta name="description" content="Ríos Durán S.A.S. generamos una experiencia en asesorías y consultorías legales, queremos gestionar tus oportunidades de mejora e impulsar tu crecimiento y éxito empresarial." />
+      </Helmet>
+      <Header navmain="RíosDurán"></Header>
       <First
         subtext="Legal & Consulting"
         firstbox="RÍOS"
