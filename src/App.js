@@ -38,9 +38,9 @@ function App() {
       ></Second>
       <Tres
         h3="Visión."
-        h4="Buscamos ser un referente empresarial destacándonos por nuestros beneficios contractuales, celeridad en los procesos y satisfacción del cliente"
+        h4="Buscamos ser un referente empresarial destacándonos por nuestros beneficios contractuales, celeridad en los procesos y satisfacción del cliente."
         h32="Misión."
-        h42="Brindar servicios legales y de optimización de procesos en gestión y calidad encaminados a la defensa de los derechos, optimo cumplimiento contractual, asertividad y cercanía con el cliente"
+        h42="Brindar servicios legales y de optimización de procesos en gestión y calidad encaminados a la defensa de los derechos, óptimo cumplimiento contractual, asertividad y cercanía con el cliente."
       ></Tres>
       <Ourservices
         h2="Nuestros Servicios"
@@ -53,12 +53,12 @@ function App() {
         li1="Derecho laboral."
         li2="Derecho civil."
         li3="Derecho administrativo."
-        li4="Derecho familia."
+        li4="Derecho de familia."
       ></Aplicacion>
       <Companyservices
         h4="Nuestros servicios para empresas."
         li="Asesoría jurídica integral."
-        li2="Contratos y acuerdos perzonalizados."
+        li2="Contratos y acuerdos personalizados."
         li3="Protección de propiedad intelectual."
         li4="Cumplimiento normativo simplificado."
         li5="Resolución de conflictos con enfoque al resultado."
@@ -75,7 +75,7 @@ function App() {
         li4="Asesoría y acompañamiento legal en asambleas ordinarias, extraordinarias y reuniones de consejo de administración."
         li5="Auditoría forense en procesos legales, administrativos y contables."
         li6="Asesoría para elaboración de informes, presupuesto y proyectos dentro de la PH."
-        li7="Capacitación de consejos de administración y comités de conviviencia (Incluye políticias, manuales y actas para su funcionamiento)."
+        li7="Capacitación de consejos de administración y comités de convivencia (Incluye políticas, manuales y actas para su funcionamiento)."
       ></HorizontalProperty>
       <Calltoaction h1="Contactenos e inicia una experiencia diferente en asesorias legales y garantiza el crecimiento de tu empresa."></Calltoaction>
       <Footer
