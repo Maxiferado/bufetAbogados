@@ -1,5 +1,8 @@
 import React from "react";
 import backImage from "../Assets/tenemosalgo.jpg"
+import Icon from "@mdi/react";
+import { mdiWhatsapp } from "@mdi/js";
+import { mdiDownloadBoxOutline } from '@mdi/js';
 export default function First({
   subtext,
   firstbox,
@@ -11,6 +14,30 @@ export default function First({
 }) {
   return (
     <div style={{'--image-url': `url(${backImage})`}}  className="bg-[image:var(--image-url)] h-1/2 w-auto bg-cover">
+      <div className="h-20 w-10 bg-[#cdad7dff] fixed top-1/2 end-0 rounded border-4 border-[#CFAF88]">
+      <div className="flex flex-col gap-3">       
+        <a className="rounded hover:bg-[#b98c49ff]" href="https://wa.me/+573183183732" target="__blank">
+          <Icon
+            className="cursor-pointer pl-1"
+            path={mdiWhatsapp}
+            title="Whatsapp"
+            size={1.2}
+            color="black"
+          />
+        </a>
+        <a className="w-100 rounded hover:bg-[#b98c49ff] 
+          " href="https://wa.me/+573183183732" target="__blank">
+          <Icon
+            className="cursor-pointer"
+            path={mdiDownloadBoxOutline}
+            title="Whatsapp"
+            size={1.2}
+            color="black"
+          />
+        </a>
+      </div>
+
+      </div>
       <div className="flex h-screen w-screen justify-around items-center">
         <div className="p-px bg-none border-4 border-[#cdad7dff] border-l-0 h-1/3 w-1/3 relative md:w-1/4 lg:w-1/5 xl:w-1/6">
           <p className="absolute text-white -bottom-12 text-sm text-center md:text-lg">
@@ -31,7 +58,7 @@ export default function First({
             <a href="/#OurServices">{button2}</a>
           </button>
           <button className="p-2 bg-[#cdad7dff] font-semibold text-black hover:text-white ">
-            <a href="/#ContactUs">{button3}</a>
+            <a href="/#ContactForm">{button3}</a>
           </button>
         </div>
       </div>

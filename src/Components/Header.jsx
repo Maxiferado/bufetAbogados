@@ -25,7 +25,7 @@ export default function Header({ navmain }) {
           />
         </a>
         <a
-          href="https://www.instagram.com/riosduranlegalconsultingsas/"
+          href="https://www.instagram.com/riosduranlegalconsulting/"
           target="__blank"
         >
           <Icon

@@ -6,15 +6,19 @@ import LogoMain from "../Assets/LogoMain.png";
 
 export default function Footer({ whatPhone, email, instagram, h2, h3 }) {
   return (
-    <div
-      className="bg-black h-auto w-auto flex flex-col items-center pb-5"
-      id="ContactUs"
-    >
-      <div>
-        <div className="mb-10">
-          <ul className="flex flex-col gap-5 items-start">
-            <li className="flex gap-2">
-              <Icon
+    <div className="bg-slate-800  h-40 w-auto flex flex-col justify-center items-center border-2">
+      <div className="flex gap-10">
+        <div className="flex">
+          <img className="h-20 pr-5" src={LogoMain} alt="Logo Rios Duran" />
+          <div className="">
+            <h2 className="text-[#cdad7dff] font-bold">{h2}</h2>
+            <h3 className="text-[#cdad7dff] font-semibold">{h3}</h3>
+          </div>
+        </div>
+        <div className="mb-10  ">
+          <ul className="flex gap-5">
+            <li className="">
+              <Icon              
                 path={mdiPhone}
                 size={1}
                 title="Phone Contact"
@@ -29,7 +33,7 @@ export default function Footer({ whatPhone, email, instagram, h2, h3 }) {
                 {whatPhone}
               </a>
             </li>
-            <li className="flex gap-2">
+            <li className="">
               <Icon
                 path={mdiEmailOutline}
                 size={1}
@@ -45,7 +49,7 @@ export default function Footer({ whatPhone, email, instagram, h2, h3 }) {
                 {email}
               </a>
             </li>
-            <li className="flex gap-2">
+            <li className="flex-col border-2 ">
               <Icon
                 path={mdiInstagram}
                 size={1}
@@ -62,13 +66,6 @@ export default function Footer({ whatPhone, email, instagram, h2, h3 }) {
               </a>
             </li>
           </ul>
-        </div>
-        <div className="flex items-center">
-          <img className="h-20 pr-5" src={LogoMain} alt="Logo Rios Duran" />
-          <div className="flex flex-col items-start">
-            <h2 className="text-[#cdad7dff] font-bold">{h2}</h2>
-            <h3 className="text-[#cdad7dff] font-semibold">{h3}</h3>
-          </div>
         </div>
       </div>
     </div>

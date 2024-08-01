@@ -10,6 +10,7 @@ import Calltoaction from "./Components/Calltoaction";
 import Footer from "./Components/Footer";
 import HorizontalProperty from "./Components/HorizontalProperty";
 import { Helmet } from "react-helmet";
+import Form from "./Components/Form";
 
 
 
@@ -77,6 +78,7 @@ function App() {
         li6="Asesoría para elaboración de informes, presupuesto y proyectos dentro de la PH."
         li7="Capacitación de consejos de administración y comités de convivencia (Incluye políticas, manuales y actas para su funcionamiento)."
       ></HorizontalProperty>
+      <Form/>
       <Calltoaction h1="Contactenos e inicia una experiencia diferente en asesorias legales y garantiza el crecimiento de tu empresa."></Calltoaction>
       <Footer
         whatPhone="+573183183732"

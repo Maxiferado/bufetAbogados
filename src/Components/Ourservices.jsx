@@ -2,7 +2,7 @@ import servicios from "../Assets/ourServices.png"
 export default function Ourservices({ h2, button1, button2, button3 }) {
   return (
     <div
-      className="bg-black h-1/3 w-auto flex flex-col gap-10 justify-end items-center"
+      className="bg-slate-800 h-1/3 w-auto flex flex-col gap-10 justify-end items-center"
       id="OurServices"
     >
       <h2 className="text-white mt-5 font-bold text-2xl md:text-3xl ">{h2}</h2>
