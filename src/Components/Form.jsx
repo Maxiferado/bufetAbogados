@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 
+const regEx =
+  /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+const [captchaIsDone, setCaptchaDone] = useState(false);
 export default function Form() {
   return (
     <div className="bg-slate-800 w-screen h-auto" id="ContactForm">
@@ -8,7 +12,7 @@ export default function Form() {
         Nos gustaria conocer tú caso
       </h2>
       <form>
-        <div className="flex justify-center gap-5 mb-10 ">
+        <div className="flex justify-center gap-5 mb-10  ">
           <div>
             <label className="text-white font-bold mr-2" htmlFor="name">
               Nombre
@@ -73,7 +77,13 @@ export default function Form() {
             value={""}
             required
           ></textarea>
-          <div className="">
+          <div className="flex flex-col gap-5">
+            <button
+              className="text-2xl text-black bg-[#cdad7dff] p-2 rounded-sm hover:bg-slate-600 hover:text-gray-800 shadow hover:shadow-lg"
+              type="button"
+            >
+              Enviar
+            </button>
             <button
               className="text-2xl text-black bg-[#cdad7dff] p-2 rounded-sm hover:bg-slate-600 hover:text-gray-800 shadow hover:shadow-lg"
               type="button"
@@ -85,9 +95,9 @@ export default function Form() {
             Al enviar este formulario estoy aceptando{" "}
             <a
               className="underline hover:text-stone-700"
-              href="https://srv1280-files.hstgr.io/5cf8600284ecca82/files/public_html/Resources/RIOS%20DURAN%20POL%C3%8DTICA%20DE%20PRIVACIDAD%20Y%20PROTECCI%C3%93N%20DE%20DATOS%20PERSONALES%20pdf.pdf"
+              href="https://riosduranlegalconsulting.com/resources/Politicas.pdf"
               target={"_blank"}
-              rel="noreferrer" 
+              rel="noreferrer"
             >
               las políticas de privacidad de Rios Duran Legal & Consulting S.A.S
             </a>

@@ -26,7 +26,7 @@ function App() {
       <Header navmain="RíosDurán"></Header>
       <First
         subtext="Legal & Consulting"
-        firstbox="RÍOS"
+        firstbox="RIOS"
         secondbox="DURÁN"
         thirdbox="S.A.S"
         button1="Sobre nosotros"

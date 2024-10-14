@@ -7,24 +7,28 @@ import LogoMain from "../Assets/LogoMain.png"
 
 export default function Header({ navmain }) {
   return (
-    <nav className="h-1/5 w-screen bg-white flex justify-between">
+    <nav className="flex justify-between h-14 w-screen bg-white">
       <a href="https://riosduranlegalconsulting.com/" target="__blank">
         <div className="flex flex-row gap-2 pl-5 cursor-pointer">
-          <img className="h-8 py-1" src={LogoMain} alt="Rios Duran Logo" />
-          <p className="text-black font-bold pt-1">{navmain}</p>
+          <img className="h-14 py-1" src={LogoMain} alt="Rios Duran Logo" />
+          <div className="flex flex-col mt-1">
+          <p className="font-['TitleFont'] text-xl text-[#1e2432ff] font-bold">{navmain}</p>
+          <p className="font-['TitleFont'] text-[#cdad7dff] font-bold">Legal & Consulting </p>
+          </div>
         </div>
       </a>
-      <div className="flex flex-row gap-5 pr-5 pt-1 mr-5">
-        <a href="mailto:contacto@riosduranlegalconsulting.com" target="__blank">
+      <div className="flex flex-row gap-5 pr-5 pt-4 mr-5">
+        <a className="hover:bg-slate-200 h-7 rounded-sm" href="mailto:contacto@riosduranlegalconsulting.com" target="__blank">
           <Icon
             className="cursor-pointer"
             path={mdiGmail}
             title="Gmail Contact"
-            size={1}
-            color="black"
+            size={1.2}
+            color="#cdad7dff"
           />
         </a>
         <a
+        className="hover:bg-slate-200 h-7 rounded-sm"
           href="https://www.instagram.com/riosduranlegalconsulting/"
           target="__blank"
         >
@@ -32,17 +36,17 @@ export default function Header({ navmain }) {
             className="cursor-pointer"
             path={mdiInstagram}
             title="Instagram"
-            size={1}
-            color="black"
+            size={1.2}
+            color="#cdad7dff"
           />
         </a>
-        <a href="https://wa.me/+573183183732" target="__blank">
+        <a className="hover:bg-slate-200 h-7 rounded-sm" href="https://wa.me/+573183183732" target="__blank">
           <Icon
             className="cursor-pointer"
             path={mdiWhatsapp}
             title="Whatsapp"
-            size={1}
-            color="black"
+            size={1.2}
+            color="#cdad7dff"
           />
         </a>
       </div>
