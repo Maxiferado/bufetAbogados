@@ -10,9 +10,6 @@ import Calltoaction from "./Components/Calltoaction";
 import Footer from "./Components/Footer";
 import HorizontalProperty from "./Components/HorizontalProperty";
 import { Helmet } from "react-helmet";
-import Form from "./Components/Form";
-
-
 
 function App() {
   return (
@@ -21,7 +18,10 @@ function App() {
         <meta charSet="utf-8" />
         <title>RíosDurán</title>
         <link rel="canonical" href="https://riosduranlegalconsulting.com/" />
-        <meta name="description" content="Ríos Durán S.A.S. generamos una experiencia en asesorías y consultorías legales, queremos gestionar tus oportunidades de mejora e impulsar tu crecimiento y éxito empresarial." />
+        <meta
+          name="description"
+          content="Ríos Durán S.A.S. generamos una experiencia en asesorías y consultorías legales, queremos gestionar tus oportunidades de mejora e impulsar tu crecimiento y éxito empresarial."
+        />
       </Helmet>
       <Header navmain="RíosDurán"></Header>
       <First
@@ -77,14 +77,13 @@ function App() {
         li5="Auditoría forense en procesos legales, administrativos y contables."
         li6="Asesoría para elaboración de informes, presupuesto y proyectos dentro de la PH."
         li7="Capacitación de consejos de administración y comités de convivencia (Incluye políticas, manuales y actas para su funcionamiento)."
-      ></HorizontalProperty>
-      <Form/>
+      ></HorizontalProperty>      
       <Calltoaction h1="Contactenos e inicia una experiencia diferente en asesorias legales y garantiza el crecimiento de tu empresa."></Calltoaction>
       <Footer
         whatPhone="+573183183732"
         email="Send Email"
         instagram="@riosduran"
-        h2="RÍOS DURÁN"
+        h2="RIOS DURÁN"
         h3="Legal & Consulting"
       ></Footer>
     </div>

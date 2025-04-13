@@ -9,7 +9,7 @@ export default function Aplicacion({ li1, li2, li3, li4, h4 }) {
         <li className="md:text-xl">{li1}</li>
         <li className="md:text-xl">{li2}</li>
         <li className="md:text-xl">{li3}</li>
-        <li className="md:text-xl">{li4}</li>
+       <li className="md:text-xl">{li4}</li>
       </ul>
     </div>
   );

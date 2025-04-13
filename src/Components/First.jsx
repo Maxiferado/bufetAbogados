@@ -17,7 +17,7 @@ export default function First({
       style={{ "--image-url": `url(${backImage})` }}
       className="bg-[image:var(--image-url)] h-1/2 w-auto bg-cover"
     >
-      <div className="h-20 w-10 bg-[#cdad7dff] fixed top-1/2 end-0 rounded border-4 border-[#CFAF88]">
+      <div className="h-20 w-10 bg-[#cdad7dff] fixed top-1/4 sm:top-1/2 end-0 rounded border-4 border-[#CFAF88]">
         <div className="flex flex-col gap-3">
           <a
             className="rounded hover:bg-[#b98c49ff]"
@@ -35,13 +35,13 @@ export default function First({
           <a
             className="w-100 rounded hover:bg-[#b98c49ff] 
           "
-            href="https://wa.me/+573183183732"
+            href="https://riosduranlegalconsulting.com/resources/FPEDP.docx"
             target="__blank"
           >
             <Icon
               className="cursor-pointer"
               path={mdiDownloadBoxOutline}
-              title="Whatsapp"
+              title="DownloadDocuments"
               size={1.2}
               color="black"
             />
@@ -51,7 +51,7 @@ export default function First({
       <div className="flex h-screen w-screen justify-around items-center">
         <div className="p-px bg-none border-4 border-[#cdad7dff] border-l-0 h-1/3 w-1/3 relative md:w-1/4 lg:w-1/5 xl:w-1/6">
           <p className="font-['TitleFont'] absolute text-white -bottom-12 text-sm text-center md:text-lg">
-            {subtext}
+              {subtext}
           </p>
           <div className="bg-none border-4 border-[#cdad7dff] border-l-0 h-full w-full text-left flex flex-col justify-center gap-10">
             <p className="font-['TitleFont'] text-white text-3xl md:text-5xl">

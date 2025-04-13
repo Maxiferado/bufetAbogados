@@ -17,7 +17,7 @@ export default function Header({ navmain }) {
           </div>
         </div>
       </a>
-      <div className="flex flex-row gap-5 pr-5 pt-4 mr-5">
+      <div className="flex flex-row gap-5 items-center pr-2">
         <a className="hover:bg-slate-200 h-7 rounded-sm" href="mailto:contacto@riosduranlegalconsulting.com" target="__blank">
           <Icon
             className="cursor-pointer"

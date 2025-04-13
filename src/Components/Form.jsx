@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
-
+import { GoogleReCaptchaProvider, GoogleReCaptcha } from "react-google-recaptcha-v3";
 const regEx =
   /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-
 
 export default function Form() {
   const [captchaIsDone, setCaptchaDone] = useState(false);
@@ -78,30 +76,29 @@ export default function Form() {
             value={""}
             required
           ></textarea>
-          <div id="magia">
           <GoogleReCaptchaProvider
               reCaptchaKey="6Le4XmAqAAAAACmvJ-_hL5M5RJMzc3ZD1TmDs_po"
-              language="es-419"
-              useRecaptchaNet="[optional_boolean_value]"
-              useEnterprise="[optional_boolean_value]"
+              language="es"
+              useRecaptchaNet="false"
+              useEnterprise="false"
               scriptProps={{
-                async: false, // optional, default to false,
-                defer: false, // optional, default to false
-                appendTo: "head", // optional, default to "head", can be "head" or "body",
-                nonce: undefined, // optional, default undefined
+                async: false, 
+                defer: false, 
+                appendTo: "head", 
+                nonce: undefined, 
               }}
-              container={{
-                // optional to render inside custom element
-                element: "magia",
+              container={{                             
                 parameters: {
-                  badge: "[inline|bottomright|bottomleft]", // optional, default undefined
+                  badge: "inline", // optional, default undefined
                   theme: "dark", // optional, default undefined
                 },
               }}
-            />
+            >          
+            </GoogleReCaptchaProvider>            
+          <div id="magia">
+            
           </div>
-          <div className="flex flex-col gap-5">           
-
+          <div className="flex flex-col gap-5">
             <button
               className="text-2xl text-black bg-[#cdad7dff] p-2 rounded-sm hover:bg-slate-600 hover:text-gray-800 shadow hover:shadow-lg"
               type="button"
