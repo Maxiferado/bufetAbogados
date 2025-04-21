@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>RíosDurán</title>
+        <title>RíosDurán Legal Consulting</title>
         <link rel="canonical" href="https://riosduranlegalconsulting.com/" />
         <meta
           name="description"

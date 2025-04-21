@@ -24,7 +24,7 @@ export default function Second({ h4, textabout }) {
           className="hidden  md:block md:mb-5 md:border-8 md:border-[#cdad7dff]"
           width="320"
           height="380"
-          src="https://www.youtube.com/embed/9e6o6-dtRX0?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/MJJRjd5hu8U?autoplay=1&mute=1"
           title="RiosDuran leagal pitch"
         ></iframe>
       </div>

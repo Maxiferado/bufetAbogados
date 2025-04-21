@@ -9,7 +9,7 @@ export default function Footer({ whatPhone, email, instagram, h2, h3 }) {
     <div className="h-auto bg-slate-800 w-auto">
       <div className="sm:flex"> 
       <div className="flex flex-col items-center sm:flex-row sm:w-1/3 sm:justify-around lg:justify-center">
-        <img className="h-1/4 w-1/4 sm:h-auto sm:w-16" src={LogoMain} alt="Logo Rios Duran" />
+        <img className="h-1/4 w-1/4 sm:h-auto sm:w-16" src={LogoMain} alt="Rios Duran" />
         <div className="flex flex-col">
           <h2 className="font-['TitleFont'] text-[#cdad7dff] font-bold">
             {h2}

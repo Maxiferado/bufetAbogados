@@ -10,14 +10,14 @@ export default function Header({ navmain }) {
     <nav className="flex justify-between h-14 w-screen bg-white">
       <a href="https://riosduranlegalconsulting.com/" target="__blank">
         <div className="flex flex-row gap-2 pl-5 cursor-pointer">
-          <img className="h-14 py-1" src={LogoMain} alt="Rios Duran Logo" />
+          <img className="h-14 py-1" src={LogoMain} alt="Rios Duran" />
           <div className="flex flex-col mt-1">
           <p className="font-['TitleFont'] text-xl text-[#1e2432ff] font-bold">{navmain}</p>
           <p className="font-['TitleFont'] text-[#cdad7dff] font-bold">Legal & Consulting </p>
           </div>
         </div>
       </a>
-      <div className="flex flex-row gap-5 items-center pr-2">
+      <div className="flex flex-row gap-5 items-center lg:pr-5">
         <a className="hover:bg-slate-200 h-7 rounded-sm" href="mailto:contacto@riosduranlegalconsulting.com" target="__blank">
           <Icon
             className="cursor-pointer"
